@@ -1,1 +1,1 @@
-# Client Detection based on Auto-Encoder-based-Channel-Estimator for Federated Learning
+# Abnormal Client Detection Federated Learning Using Image Vectors
