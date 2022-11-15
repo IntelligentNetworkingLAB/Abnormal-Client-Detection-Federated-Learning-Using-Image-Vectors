@@ -154,11 +154,5 @@ str(iterative_process.initialize.type_signature)
 
 state = iterative_process.initialize()
 
-state, metrics = iterative_process.next(state, federated_train_data)
-print('round  1, metrics={}'.format(metrics))
 
-NUM_ROUNDS = 400
-for round_num in range(2, NUM_ROUNDS):
-  state, metrics = iterative_process.next(state, federated_train_data)
-  print('round {:2d}, metrics={}'.format(round_num, metrics))
 
