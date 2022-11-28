@@ -5,6 +5,9 @@ Federated learning is a distributed machine learning system that can learn AI mo
 we propose a method to obtain cosine similarity by computing vector inner product based on the vector for the client’s image data, and to improve the performance of federated learning by eliminating clients with low similarity. Compared to the case of conducting federated learning without detecting abnormal clients, the performance improvement of 6% was confirmed when the proposed method was applied, and the federated learning was conducted.
 ![image info](./ICOIN_model.png)
 
+## Version Info
+Tensorflow 2.9.2
+Python 3.7
 
 ## License
 Copyright (c) 2022 Networking Intelligence
