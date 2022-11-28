@@ -1,8 +1,9 @@
 # Abnormal Client Detection Federated Learning Using Image Vectors
 
 ## Overview
-
-![image info]
+Federated learning is a distributed machine learning system that can learn AI models in cooperation with each other without directly sharing data stored in multiple locations. Since federated learning requires training the model without direct access to the client data, AI models can be trained while protecting the client’s data. In the presence of clients with relatively different data distributions from other clients, this can lead to poor model learning performance in federated learning.
+we propose a method to obtain cosine similarity by computing vector inner product based on the vector for the client’s image data, and to improve the performance of federated learning by eliminating clients with low similarity. Compared to the case of conducting federated learning without detecting abnormal clients, the performance improvement of 6% was confirmed when the proposed method was applied, and the federated learning was conducted.
+![image info](./ICOIN_model.png)
 
 
 ## License
