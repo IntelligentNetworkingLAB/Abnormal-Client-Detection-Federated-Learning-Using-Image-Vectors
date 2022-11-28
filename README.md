@@ -6,9 +6,9 @@ we propose a method to obtain cosine similarity by computing vector inner produc
 ![image info](./ICOIN_model.png)
 
 ## Version Info
-Tensorflow 2.9.2
-
 Python 3.7
+
+Tensorflow 2.9.2
 
 ## License
 Copyright (c) 2022 Networking Intelligence
